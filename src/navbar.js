@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import './index.css'
+import './navbar.css'
 
 class Navbar extends Component{
 
    menuToggle(e){
     let navMenu = document.getElementById('nav-menu');
-    if(navMenu.style.display ===   'none'){
+    if(navMenu.style.display === ''){
       navMenu.style.display = "block";
-    } else {
+    } else if (navMenu.style.display === 'block'){
       navMenu.style.display = "none";
+    } else {
+      navMenu.style.display = "block";
     }
   }
 
@@ -25,7 +27,7 @@ class Navbar extends Component{
           </a>
         </div>
         <nav id="nav-menu">
-          <a href="#" className="nav-link">HOME</a>
+          <a href="#home" className="nav-link">HOME</a>
           <a href="#" className="nav-link">PRODUCTS</a>
           <a href="#" className="nav-link">NEWSLETTER</a>
           <a href="#" className="nav-link">CONTACT</a>
