@@ -20,11 +20,14 @@
   }
 
   .imgIngredients {
-    font-family: 'Ranga';
+    line-height: 17px;
+    font-family: 'Montserrat';
     color: #ddd;
-    font-size: 18px;
-    padding: 10px;
+    font-size: 15px;
+    padding-top: 10px;
   }
+
+
 
 
   .right {

@@ -12,20 +12,23 @@ class Products extends Component{
       <div className="prods">
         <div className="product">
           <p className="imgTitle">Cheese & Ham</p>
-          <img src={img1} alt="" id="prodimg1" className='prodimgs'/>
-          <p className="imgIngredients">Ingredients: 3 eggs, 40g Cheddar, 40g Ham</p>
+          <img src={img1} alt="" className='prodimgs' />
+          <p className="imgIngredients">Ingredients: 3 eggs, 40g Cheddar, 40g Ham <br/>Price: --</p>
         </div>
         <div className="product">
           <p className="imgTitle right">Classic</p>
-          <img src={img2} alt="" id="prodimg2" className='prodimgs'/>
+          <img src={img2} alt="" className='prodimgs' />
+          <p className="imgIngredients right">Ingredients: 3 eggs, bassil <br/>Price: --</p>
         </div>
         <div className="product">
           <p className="imgTitle">French</p>
-          <img src={img3} alt="" id="prodimg3" className='prodimgs'/>
+          <img src={img3} alt="" className='prodimgs' />
+          <p className="imgIngredients">Ingredients: 3 eggs, green onions, butter<br/>Price: --</p>
         </div>
         <div className="product">
           <p className="imgTitle right">Vegetables</p>
-          <img src={img4} alt="" id="prodimg4" className='prodimgs'/>
+          <img src={img4} alt="" className='prodimgs' />
+          <p className="imgIngredients right">Ingredients: 3 eggs, onion, tomatoe, mushrooms<br/>Price: --</p>
         </div>
       </div>
     )
