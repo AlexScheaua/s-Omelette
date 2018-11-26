@@ -60,7 +60,9 @@ code {
     top: 40px;
     position: relative;
     height: 1300px;
-    z-index: -2
+    z-index: -2;
+    font-family: 'Montserrat';
+    background-color: #eee;
   }
 
   #backVideo {
@@ -71,13 +73,17 @@ code {
   }
 
   .about-title {
-    font-size: 26px;
-    font-family: 'Georgia', serif;
-    margin: 15px 0;
+    position: absolute;
+    top: 21vw;
+    left: 19vw;
+    text-align: center;
+    font-size: 9vw;
+    color: #ddd;
+    opacity: 0.7;
   }
 
   .about-text {
-    font-family: 'Georgia', serif;
+    margin-top: 15px;
     text-align: center;
     line-height: 20px;
   }

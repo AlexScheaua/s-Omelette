@@ -22,7 +22,7 @@ class Navbar extends Component{
             <img src="https://image.flaticon.com/icons/png/512/644/644704.png" alt="Logo" id="header-img"/>
             <h1 id="title">`s Omelletes</h1>
           </div>
-          <a href="#" className='nav-button' onClick={this.menuToggle}>
+          <a href="javascript:void(0);" className='nav-button' onClick={this.menuToggle}>
             <i id="icon" className="fa fa-bars"></i>
           </a>
         </div>
