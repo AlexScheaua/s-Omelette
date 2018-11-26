@@ -57,15 +57,16 @@ code {
 /* MY CODE */
 @media screen and (max-width: 600px) {
   #home {
+		display: block;
     top: 40px;
     position: relative;
-    height: 1300px;
     z-index: -2;
     font-family: 'Montserrat';
     background-color: #eee;
+		padding-bottom: 60px;
   }
 
-  #backVideo {
+  #video {
     position: relative;
     width: 100%;
     z-index: -1;

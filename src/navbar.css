@@ -118,7 +118,7 @@ code {
 
 @media screen and (max-width: 600px) {
   #header {
-    height: 40px;
+    height: 60px;
     display: block;
 		position: fixed;
   }
@@ -127,7 +127,7 @@ code {
     margin: auto;
   }
   #header-img {
-    width: 40px;
+    width: 60px;
   }
 
   #title {
@@ -135,11 +135,13 @@ code {
 		font-weight: 700;
     letter-spacing: 4px;
     padding-left: 5px;
+		padding-bottom: 1.5vw;
   }
 
   #nav-bar {
     display: flex;
     justify-content: space-between;
+		align-items: center;
   }
 
   #nav-menu {
@@ -154,17 +156,20 @@ code {
   .nav-button {
     color: #555;
     padding: 1.5vw 3vw 0px 0px;
+		-webkit-tap-highlight-color: transparent;
   }
 
   .nav-link {
+		font-size: 25px;
     width: 100%;
     display: block;
     padding: 10px;
     background-color: #999;
+		-webkit-tap-highlight-color: transparent;
   }
 
   .nav-link:active {
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
     background-color: #eee;
     color: #d8d063;
   }

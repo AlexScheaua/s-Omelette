@@ -28,7 +28,7 @@ class Navbar extends Component{
         </div>
         <nav id="nav-menu">
           <a href="#home" className="nav-link">HOME</a>
-          <a href="#" className="nav-link">PRODUCTS</a>
+          <a href="#products" className="nav-link">PRODUCTS</a>
           <a href="#" className="nav-link">NEWSLETTER</a>
           <a href="#" className="nav-link">CONTACT</a>
         </nav>

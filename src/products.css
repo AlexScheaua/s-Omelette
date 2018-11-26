@@ -1,0 +1,48 @@
+@media screen and (max-width: 600px) {
+  .prods {
+    position: absolute;
+    background-color: rgb(50,50,50);
+    width: 100%;
+    z-index: -1;
+  }
+
+  .product{
+    width: 100%;
+    display:inline-block;
+    overflow: hidden;
+  }
+
+  .imgTitle {
+    font-family: 'Ranga';
+    color: #ddd;
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  .imgIngredients {
+    font-family: 'Ranga';
+    color: #ddd;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+
+  .right {
+    float: right;
+  }
+
+  .prodimgs {
+    width: 100%;
+    position:relative;
+    display:block;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
+  .prodimgs:hover{
+    transition-duration: 0.5s;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
+}

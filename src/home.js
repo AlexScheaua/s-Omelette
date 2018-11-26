@@ -8,7 +8,7 @@ class Home extends Component{
     return(
       <div>
         <div id="video">
-        <video id="backVideo" loop autoPlay muted>
+        <video id="video" autoPlay loop muted>
           <source src={video} type="video/mp4" />
           Your browser does not support HTML5 video.
         </video>
