@@ -20,15 +20,14 @@
   }
 
   .imgIngredients {
+    display: none;
     line-height: 17px;
     font-family: 'Montserrat';
     color: #ddd;
     font-size: 15px;
     padding-top: 10px;
+    padding-right: 5px;
   }
-
-
-
 
   .right {
     float: right;
@@ -42,7 +41,7 @@
     filter: grayscale(100%);
   }
 
-  .prodimgs:hover{
+  .prodimgsactive{
     transition-duration: 0.5s;
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);

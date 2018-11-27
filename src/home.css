@@ -56,6 +56,7 @@ code {
 
 /* MY CODE */
 @media screen and (max-width: 600px) {
+
   #home {
 		display: block;
     top: 40px;
