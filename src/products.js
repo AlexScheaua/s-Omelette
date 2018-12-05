@@ -7,25 +7,6 @@ import img4 from './resources/Mobile/4.png'
 
 class Products extends Component{
 
-  // ingredientsToggle = (e) => {
-  //   let selector = e.target.className[0];
-  //   let image = document.getElementsByClassName(selector)[0];
-  //   if(image.classList.contains('prodimgsactive')){
-  //     image.classList.remove('prodimgsactive')
-  //   } else {
-  //     image.classList.add('prodimgsactive')
-  //   }
-  //
-  //   let paragraph = document.getElementsByClassName(selector)[1];
-  //   if(paragraph.style.display === ''){
-  //     paragraph.style.display = "block";
-  //   } else if (paragraph.style.display === 'block'){
-  //     paragraph.style.display = "none";
-  //   } else {
-  //     paragraph.style.display = "block";
-  //   }
-  // }
-
   active = (e) => {
       let selector = e.target.className[0];
       let image = document.getElementsByClassName(selector)[0];
